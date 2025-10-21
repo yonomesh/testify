@@ -1,6 +1,8 @@
 Testify - Thou Shalt Write Tests
 ================================
 
+frok from stretchr/testify
+
 > [!NOTE]
 > Testify is being maintained at v1, no breaking changes will be accepted in this repo.  
 > [See discussion about v2](https://github.com/stretchr/testify/discussions/1560).
