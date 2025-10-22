@@ -1,13 +1,13 @@
-module github.com/stretchr/testify
+module github.com/yonomesh/testify
 
 // This should match the minimum supported version that is tested in
 // .github/workflows/main.yml
 go 1.17
 
 require (
-	github.com/davecgh/go-spew v1.1.1
-	github.com/stretchr/objx v0.5.2 // To avoid a cycle the version of testify used by objx should be excluded below
-	gopkg.in/yaml.v3 v3.0.1
+	github.com/yonomesh/spew-go v1.1.2
+	github.com/yonomesh/objx-go v0.5.4 // To avoid a cycle the version of testify used by objx should be excluded below
+	github.com/yonomesh/yaml-go v3.0.2
 )
 
 // Break dependency cycle with objx.
