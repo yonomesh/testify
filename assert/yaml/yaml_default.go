@@ -28,7 +28,7 @@
 // [PR #1120]: https://github.com/stretchr/testify/pull/1120
 package yaml
 
-import goyaml "github.com/yonomesh/yaml-go"
+import goyaml "github.com/yonomesh/yaml-go/v3"
 
 // Unmarshal is just a wrapper of [gopkg.in/yaml.v3.Unmarshal].
 func Unmarshal(in []byte, out interface{}) error {

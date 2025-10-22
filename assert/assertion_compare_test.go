@@ -29,8 +29,8 @@ func TestCompare(t *testing.T) {
 	type customTime time.Time
 	type customBytes []byte
 	for _, currCase := range []struct {
-		less    interface{}
-		greater interface{}
+		less    any
+		greater any
 		cType   string
 	}{
 		{less: customString("a"), greater: customString("b"), cType: "string"},
@@ -82,7 +82,7 @@ func TestCompare(t *testing.T) {
 		}
 
 		if resGreater != compareGreater {
-			t.Errorf("object greater should be greater than less for type " + currCase.cType)
+			t.Errorf("%s", "object greater should be greater than less for type "+currCase.cType)
 		}
 
 		resEqual, isComparable := compare(currCase.less, currCase.less, reflect.ValueOf(currCase.less).Kind())
@@ -91,7 +91,7 @@ func TestCompare(t *testing.T) {
 		}
 
 		if resEqual != 0 {
-			t.Errorf("objects should be equal for type " + currCase.cType)
+			t.Errorf("%s", "objects should be equal for type "+currCase.cType)
 		}
 	}
 }

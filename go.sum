@@ -1,0 +1,8 @@
+github.com/yonomesh/objx-go v0.5.4 h1:079k+CS9eXgwEf+qa7GVgU2gwgAuTnknjRHwIcIkbdk=
+github.com/yonomesh/objx-go v0.5.4/go.mod h1:5SUO7T4tg6HdPdX/VQMr2o8QtZZA3fnZOs+MTeu/ND0=
+github.com/yonomesh/spew-go v1.1.2 h1:qqwxPXmpwCWn/M5NnW6PDDE0xIgXjQ+NHF4Y2QdLw5I=
+github.com/yonomesh/spew-go v1.1.2/go.mod h1:t+z9lhlBxd2LAsd0taDjQqSUkN4YG6gnSs+g6vsO0Bo=
+github.com/yonomesh/yaml-go/v3 v3.0.2 h1:5dtn6YYsViwUCestOxErs3tZ079M1oiLPHYQ1oq3QiU=
+github.com/yonomesh/yaml-go/v3 v3.0.2/go.mod h1:kWjLc6cSybKb/5uPxQJFSLuJk7QFgF0W1e2RZghzztU=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
